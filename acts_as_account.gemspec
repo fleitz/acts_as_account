@@ -62,8 +62,8 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<activerecord>, ["~> 4.1"])
-      s.add_runtime_dependency(%q<actionpack>, ["~> 4.1"])
+      s.add_runtime_dependency(%q<activerecord>, ["~> 5.0.0.rc1"])
+      s.add_runtime_dependency(%q<actionpack>, ["~> 5.0.0.rc1"])
       s.add_runtime_dependency(%q<database_cleaner>, ["~> 1.3"])
       s.add_development_dependency(%q<jeweler>, ["~> 2.0"])
       s.add_development_dependency(%q<cucumber>, ["~> 1.3"])
